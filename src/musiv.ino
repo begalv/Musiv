@@ -1,11 +1,10 @@
-#include <log2.h>
 #include <FastLED.h>
 
 //LED's constants
 #define numLeds 300
 #define ledsPin 6
 
-//MSGEQ7' constants
+//MSGEQ7's constants
 #define analogPin A0
 #define strobePin 4
 #define resetPin 5
