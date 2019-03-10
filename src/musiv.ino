@@ -11,7 +11,7 @@
 #define noise 125
 CRGB leds[numLeds];
 
-//average volume's peak for bass, snare and hat
+//volume's peak arrays for bass, snare and hat (updated by frames)
 const int frames = 50; 
 int frame = 1;
 int bass[frames];
