@@ -1,6 +1,6 @@
 # Musiv
 
-This project consists on a simple LED strip that reacts to music. The circuit uses two adafruit's electret microphone amplifiers (left and right) with adjustable gain to capture audio waves in the air and, by code, it filters the noises so that only the music waves (loudest waves in the room) are taken into account. Then the MSGEQ7 integrated circuit divides the volumes peaks of the filtered frequencies into a seven values array, that is updated every time the created function is called on arduinos loop iteration.
+This project consists on a simple LED strip that reacts to music. The circuit uses two adafruit's electret microphone amplifiers (left and right) with adjustable gain to capture audio waves in the air and, by code, it filters the noises so that only the music waves (loudest waves in the room) are taken into account. Then the MSGEQ7 integrated circuit divides the volumes peaks of the filtered frequencies into a seven values array, that is updated every time the created function is called on arduino loop iteration.
 
 With these values in hand, the code can create a frame iteration that updates the average bass, snare and hat volumes in each frame, so depending in the new loudest volume peak, divided per its band average, a function returns a three values array (R, G, B), that are the color values passed to the LED strip via it's library. 
 
