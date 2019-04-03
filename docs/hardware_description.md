@@ -10,4 +10,5 @@ The WS2812B LED strip requires about 3A per meter, resulting in the 15A required
 
 - **MSGEQ7 Integrated Circuit:**
 The seven band graphic equalizer IC is a CMOS chip that divides the audio spectrum into seven bands, 63Hz, 160Hz, 400Hz, 1kHz, 2.5kHz, 6.25kHz and 16kHz. The seven frequencies are peak detected and multiplexed to the output to provide a DC representation of the amplitude of each band. 
+
 The multiplexor is controlled by a reset and a strobe, permitting multiplexor readout with only two pins. The DC peak output for measurement is selected using these two pins. Reset high resets the multiplexor. Reset low enables the strobe pin. After the first strobe leading edge, 63Hz output is on OUT. Each additional strobe leading edge advances the multiplexor one channel (63Hz, 160Hz, 400Hz, 1kHz, 2.5kHz, 6.25kHz, 16kHz etc.) and this will repeat indefinitely.
