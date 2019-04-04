@@ -16,4 +16,4 @@ The seven band graphic equalizer IC is a CMOS chip that divides the audio spectr
 - **MAX4466 Adafruit Electret Microphone Amplifier:**
 This board comes with a 20-20KHz electret microphone soldered on and an op-amp Maxim MAX4466 for the amplification. It has excellent power supply noise rejection and adjustable gain, that can be set through a small trimmer pot on the back of the board. For the best performance use the "quietest" supply available (on an Arduino, this would be the 3.3V supply). The audio waveform will come out of the OUT pin, that have a DC bias of VCC/2 so when its perfectly quiet, the voltage will be a steady VCC/2 volts (DC coupled).
 
-![Alt](https://github.com/begalv/Musiv/blob/master/docs/images/mic.jpg)
+![Alt](https://github.com/begalv/Musiv/blob/master/docs/images/mic1.jpg)
