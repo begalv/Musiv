@@ -17,3 +17,7 @@ The seven band graphic equalizer IC is a CMOS chip that divides the audio spectr
 This board comes with a 20-20KHz electret microphone soldered on and an op-amp Maxim MAX4466 for the amplification. It has excellent power supply noise rejection and adjustable gain, that can be set through a small trimmer pot on the back of the board. For the best performance use the "quietest" supply available (on an Arduino, this would be the 3.3V supply). The audio waveform will come out of the OUT pin, that have a DC bias of VCC/2 so when its perfectly quiet, the voltage will be a steady VCC/2 volts (DC coupled).
 
 ![Alt](https://github.com/begalv/Musiv/blob/master/docs/images/mic1.jpg)
+
+The WS2812 is a intelligent control LED light source that the control circuit and RGB chip are integrated ina package of 5050 components. The gray levels of each pixel are of 256 levels, 24bit full-color display. It is possible to control each LED individually and set them to any color or animation. As to the working voltage & power: DC 5V; 0.3W/LED; 18W/M; 90W/Roll.
+
+![Alt](https://github.com/begalv/Musiv/blob/master/docs/images/WS2812B.jpg)
