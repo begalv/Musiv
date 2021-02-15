@@ -19,6 +19,6 @@ This board comes with a 20-20KHz electret microphone soldered on and an op-amp M
 ![Alt](https://github.com/begalv/Musiv/blob/master/docs/images/mic1.jpg)
 
 - **WS2812B LED strip:**
-The WS2812 is a intelligent control LED light source that the control circuit and RGB chip are integrated ina package of 5050 components. The gray levels of each pixel are of 256 levels, 24bit full-color display. It is possible to control each LED individually and set them to any color or animation, through arduino's FastLED library. As to the working voltage & power: DC 5V; 0.3W/LED; 18W/M; 90W/Roll.
+The WS2812 is a intelligent control LED light source that the control circuit and RGB chip are integrated in a package of 5050 components. The gray levels of each pixel are of 256 levels, 24bit full-color display. It is possible to control each LED individually and set them to any color or animation, through arduino's FastLED library. As to the working voltage & power: DC 5V; 0.3W/LED; 18W/M; 90W/Roll.
 
 ![Alt](https://github.com/begalv/Musiv/blob/master/docs/images/WS2812B.jpg)
